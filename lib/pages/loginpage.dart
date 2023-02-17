@@ -14,8 +14,7 @@ class _LoginPageScreenState extends State<LoginPageScreen> {
   bool isApicallProcess = false;
   bool hidePassword = true;
   GlobalKey<FormState> globalKey = GlobalKey<FormState>();
-  String? username1;
-  String? password1;
+  
   @override
   Widget build(BuildContext context) {
     return Scaffold(
